@@ -1,0 +1,22 @@
+[project]
+name = ""
+requires-python = ">= 3.10"
+authors = [{name = "SJ", email = "noreply@null.void"}]
+maintainers = [{name = "SJ", email = "noreply@null.void"}]
+description = "Your Project Description Goes Here"
+license = { file = "LICENSE" }
+# For a list of classifiers: https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10"
+]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[project.urls]
+Homepage = ""
+Documentation = ""
+Repository = ""
+Changelog = ""
