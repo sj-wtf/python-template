@@ -6,8 +6,10 @@ repos:
     - id: check-json
     - id: check-toml
     - id: check-ast
+    - id: name-tests-test
     - id: end-of-file-fixer
     - id: trailing-whitespace
+    - id: requirements-txt-fixer
 - repo: https://github.com/psf/black
   rev: 22.10.0
   hooks:
