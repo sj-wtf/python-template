@@ -21,3 +21,8 @@ Homepage = ""
 Documentation = ""
 Repository = ""
 Changelog = ""
+
+[pytest]
+testpaths = "tests"
+python_files = "test_*.py"
+pythonpath = "."

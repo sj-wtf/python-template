@@ -18,3 +18,11 @@ repos:
   rev: v8.16.1
   hooks:
       - id: gitleaks
+- repo: local
+  hooks:
+    - id: pytest-check
+      name: pytest-check
+      entry: bash -c 'pytest'
+      language: system
+      pass_filenames: false
+      always_run: true
